@@ -17,10 +17,10 @@
           removeAttributeQuotes: false // 改为false
           },
       }),
-      new MiniCssExtractPlugin({
-        filename: "[name].[contenthash].css",
-        chunkFilename: "[name].[contenthash].css"
-      })
+      // new MiniCssExtractPlugin({
+      //   filename: "[name].[contenthash].css",
+      //   chunkFilename: "[name].[contenthash].css"
+      // })
     ],
     module:{
 　　　　rules:[
@@ -41,9 +41,9 @@
           {
             test: /\.css$/,
             use:[
-              {
-                loader: MiniCssExtractPlugin.loader
-              },
+              // {
+              //   loader: MiniCssExtractPlugin.loader
+              // },
               {
                 loader: 'css-loader'
               },
@@ -52,7 +52,7 @@
 　　　　]
 　　},
     output: {
-      filename: 'bundle.js',           
+      filename: 'index.js',           
       path: path.resolve(__dirname, 'dist')    //定义输出文件夹dist路径
     }
   };
