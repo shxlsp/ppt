@@ -1,5 +1,5 @@
 {
-  "name": "ppt",
+  "name": "html-ppt",
   "version": "1.0.2",
   "private": false,
   "main": "./dist/index.js",
