@@ -3,7 +3,9 @@
   "version": "1.0.4",
   "private": false,
   "main": "./dist/index.js",
-  "files":["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --config webpack.dev.js",

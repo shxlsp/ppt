@@ -45,6 +45,9 @@
               //   loader: MiniCssExtractPlugin.loader
               // },
               {
+                loader: 'style-loader'
+              },
+              {
                 loader: 'css-loader'
               },
             ]
