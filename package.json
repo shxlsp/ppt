@@ -1,6 +1,6 @@
 {
   "name": "html-ppt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "main": "./dist/index.js",
   "files":["dist"],
