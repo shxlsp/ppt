@@ -1,7 +1,7 @@
 {
   "name": "ppt",
   "version": "1.0.2",
-  "private": true,
+  "private": false,
   "main": "./dist/index.js",
   "files":["dist"],
   "scripts": {
